@@ -1,8 +1,8 @@
 #ifndef BOARD_H
 #define BOARD_H
-
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 class Board {
@@ -11,10 +11,10 @@ private:
     vector<vector<int>> grid;
 
 public:
-    Board(int size);
+    Board(int rows);
 
     void Update_Board(const vector<pair<int,int>>& Player_1, const vector<pair<int,int>>& Player_2);
-
-    void Display_Board();
+    void Display_Board() const;
 };
+
 #endif
