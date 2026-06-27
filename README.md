@@ -9,27 +9,19 @@ This project is the software implementation accompanying the mathematical work:
 ---
 
 # 🧠 Concepts Used :
-
 - Object-Oriented Programming (OOP)
-- Modular Programming (Multi-file Project)
-- C++ Standard Template Library (STL)
-- Vectors (`std::vector`)
+- C++ Standard Template Library (STL) i.e Vector<>
 - Coordinate Geometry
 - Vector Parametric Equations
-- Dynamic Winning Line Generation
-- Input Validation
-- Git & GitHub Version Control
-- Makefile-based Build System
+- Dynamic Winning Line Generation.
 
 ---
+
+
 # ✨ Features :
-- Object-Oriented Design
-- Modular Multi-file Project Structure
 - Scalable N × N Board
 - Automatic Winning Line Generation using Vector Parametric Equations
 - Continuous Winner Detection
-- Input Validation
-- Duplicate Move Detection
 - Cross-platform Build Support
 
 ---
@@ -60,7 +52,7 @@ Tic_tac_toe/
 # 🎯 Applications :
 
 - Mathematical Game Development
-- - Vector and Coordinate Geometry Visualization
+-  Vector and Coordinate Geometry Visualization
 - Algorithm Design Practice
 - Scalable Board Game Development
 - Academic & Research Demonstration
