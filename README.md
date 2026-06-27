@@ -110,7 +110,7 @@ The software serves as a practical implementation of the concepts developed in t
 
 **Suraj Rai**
 
-ORCID: **0009-0009-9320-8962**
+ORCID ID : **0009-0009-9320-8962**
 
 ---
 
