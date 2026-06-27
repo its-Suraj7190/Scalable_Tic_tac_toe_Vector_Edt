@@ -1,4 +1,4 @@
-# Vectorized Tic-Tac-Toe
+#  🎮 Vectorized Tic-Tac-Toe : 
 
 A scalable Object-Oriented C++ implementation of Tic-Tac-Toe using vector-based winning line generation.
 
@@ -8,18 +8,21 @@ This project is the software implementation accompanying the mathematical work:
 
 ---
 
-## Author
+# 🧠 Concepts Used :
 
-**Suraj Rai**
-
-ORCID: **0009-0009-9320-8962**
-
-GitHub: https://github.com/its-suraj7190
+- Object-Oriented Programming (OOP)
+- Modular Programming (Multi-file Project)
+- C++ Standard Template Library (STL)
+- Vectors (`std::vector`)
+- Coordinate Geometry
+- Vector Parametric Equations
+- Dynamic Winning Line Generation
+- Input Validation
+- Git & GitHub Version Control
+- Makefile-based Build System
 
 ---
-
-## Features
-
+# ✨ Features :
 - Object-Oriented Design
 - Modular Multi-file Project Structure
 - Scalable N × N Board
@@ -31,7 +34,7 @@ GitHub: https://github.com/its-suraj7190
 
 ---
 
-## Project Structure
+# 📂 Project Structure :
 
 ```
 Tic_tac_toe/
@@ -54,25 +57,30 @@ Tic_tac_toe/
 └── build.bat
 ```
 
+# 🎯 Applications :
+
+- Mathematical Game Development
+- - Vector and Coordinate Geometry Visualization
+- Algorithm Design Practice
+- Scalable Board Game Development
+- Academic & Research Demonstration
+
 ---
 
-## Requirements
 
-- C++17 or newer
-- g++
+# 📚 Technologies Used : 
+- C++17 or newer.
+- g++ Commpiler.
 - mingw32-make (Windows)
 
 ---
 
-## Build
+
+##  ⚙️ Build and Run :
 
 ```bash
 mingw32-make
 ```
-
----
-
-## Run
 
 ```bash
 .\Tic_tac_toe.exe
@@ -86,40 +94,33 @@ mingw32-make run
 
 ---
 
-## Clean Build Files
-
-```bash
-mingw32-make clean
-```
-
 ---
 
-## Mathematical Background
+## 📐 Mathematical Background :
+This implementation is based on the mathematical formulation presented in:
 
-The game generates every winning row, column and diagonal using vector parametric equations instead of hard-coded winning conditions.
+> **Mathematical Foundations for Scalable Tic-Tac-Toe: Vector Parametric Edition (II)**
 
-For an N × N board,
+Instead of explicitly checking every possible winning combination, the program mathematically constructs all winning rows, columns, and diagonals using **Vector Parametric Equations**. This approach naturally scales to any **N × N** board while keeping the implementation concise, reusable, and mathematically elegant.
 
-- Rows
-- Columns
-- Main Diagonal
-- Secondary Diagonal
-
-are generated dynamically, making the implementation scalable for arbitrary board sizes.
-
+The software serves as a practical implementation of the concepts developed in the accompanying mathematical work.
 ---
 
-## Future Improvements
+# 🚀 Future Enhancements :
 
-- AI Opponent
-- Minimax Algorithm
-- Alpha-Beta Pruning
+- Computer opponent.
 - Graphical User Interface
-- Save/Load Games
-- Online Multiplayer
+- Save/Load Games.
 
 ---
 
-## License
+##  👨‍💻 Author :
 
+**Suraj Rai**
+
+ORCID: **0009-0009-9320-8962**
+
+---
+
+# 📜 License :
 This project is released under the MIT License.
